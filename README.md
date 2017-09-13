@@ -1,3 +1,5 @@
+# Image Inpainting with Global Gradient Statistics
+
 This is a python script to fill holes in grayscale images.
 
 The command line arguments are: filename, x1, x2, y1, y2, T.
@@ -15,3 +17,5 @@ How the algorithm works:
   gradient angle, whereas a circle has uniform gradient angle.
 * Construct a maximum likelihood estimator based on gradient statistics.
 * Solve the MLE with simulated annealing.
+
+See report.pdf for more details.
